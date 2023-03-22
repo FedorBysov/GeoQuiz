@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
+            android:text="@string/question_text"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -29,16 +29,18 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/true_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="true_button"
+                android:text="@string/true_button"
                 android:layout_marginEnd="5dp"/>
 
 
             <Button
+                android:id="@+id/false_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="false_button"
+                android:text="@string/false_button"
                 android:layout_marginStart="5dp"/>
         </LinearLayout>
 
